@@ -127,21 +127,6 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
                     animViewFlight.pauseAnimation()
                     return@setOnTouchListener true
                 }
-
-                MotionEvent.ACTION_MOVE -> {
-                    animViewFlight.pauseAnimation()
-                    return@setOnTouchListener true
-                }
-
-                MotionEvent.ACTION_BUTTON_RELEASE -> {
-                    animViewFlight.pauseAnimation()
-                    return@setOnTouchListener true
-                }
-
-                MotionEvent.ACTION_SCROLL -> {
-                    animViewFlight.pauseAnimation()
-                    return@setOnTouchListener true
-                }
             }
             false
         }
