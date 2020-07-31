@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">LottieAnimationExample</string>
     <string name="tap_and_hold">Tap and hold</string>
+    <string name="on_click">On click</string>
+    <string name="speed">Speed</string>
+    <string name="reverse_animation">Reverse animation</string>
+    <string name="play_backward">play backward</string>
+    <string name="play_forward">play forward</string>
+    <string name="forward_backward_ping_pong">Forward Backward (ping pong)</string>
+    <string name="on_completion_event">On completion event</string>
+    <string name="start">Start</string>
 </resources>
